@@ -86,7 +86,20 @@ git pull origin main
 <!-- An event that takes place when Git is unable to automatically resolve differences  in code between two commits. -->
   
 
+<!-- Undoing Changes -->
+case 1 : staged changes 
+         
+        git reset <-file name->
+        git reset
 
+case 2 : commited changes (for one commit)        
+
+        git reset HEAD-1
+
+case 3 : commited changes (for many commits)
+
+        git reset <-commit hash->
+        git reset --hard <-commit hash->
 
 
 
