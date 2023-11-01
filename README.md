@@ -34,6 +34,13 @@ git commit -m "Some message"
 <!-- push : upload local repo content to remote repo -->
 git push origin main
 
+<!-- to get into any directory -->
+cd <name of rhe directory>
+<!-- to get out from any directory -->
+cd ..
+
+<!-- make new directory into new folder  -->
+mkdir <name of the new directory>
 
 
 
