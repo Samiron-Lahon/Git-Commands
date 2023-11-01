@@ -81,6 +81,9 @@ create git repo--clone--changes--add--commit--push
 <!-- Pull Command -->
 <!-- used to fetch and download content from a remote repo and immediately update the local repo to match that content. -->
 git pull origin main
+
+<!-- Resolving Merge Conflicts -->
+<!-- An event that takes place when Git is unable to automatically resolve differences  in code between two commits. -->
   
 
 
