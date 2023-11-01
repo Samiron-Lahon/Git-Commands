@@ -35,12 +35,22 @@ git commit -m "Some message"
 git push origin main
 
 <!-- to get into any directory -->
-cd <name of rhe directory>
+cd <name of the directory>
 <!-- to get out from any directory -->
 cd ..
 
+
 <!-- make new directory into new folder  -->
 mkdir <name of the new directory>
+
+<!-- Initial command -->
+<!-- init : used to create a new git repo  -->
+git init
+git remote add origin <-link->
+git remote -v   (to verify remote)
+git branch      (to check branch)
+git branch -M main   (to rename branch)
+git push  origin main
 
 
 
