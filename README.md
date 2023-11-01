@@ -52,6 +52,32 @@ git branch      (to check branch)
 git branch -M main   (to rename branch)
 git push origin main
 
+<!-- Work flow -->
+create git repo--clone--changes--add--commit--push
+ 
+ <!-- git branch -->
+  git branch                               (to check branch)
+  git branch -M main                       (to rename branch)
+  git checkout <-new branch name->         (to navigate)
+  git checkout -b <-new branch name->      (to create new branch)
+
+
+  git branch -d <-branch name->            (to delete branch)
+
+
+  <!-- Merging code -->
+
+  <!-- way1 -->
+  way1
+  git diff <-branch name->          (to compare commits, branches,
+                                     file & more)
+  git merge <-branch name->         (to merge 2 branches)
+
+  <!-- way2 -->
+  way2
+  <!-- PR(Pull request) : It lets you tell others about changes you've pushed to a branch in a repository on Github -->
+  create a PR         
+
 
 
 
