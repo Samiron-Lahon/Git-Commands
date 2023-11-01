@@ -78,6 +78,11 @@ create git repo--clone--changes--add--commit--push
   <!-- PR(Pull request) : It lets you tell others about changes you've pushed to a branch in a repository on Github -->
   create a PR         
 
+<!-- Pull Command -->
+<!-- used to fetch and download content from a remote repo and immediately update the local repo to match that content. -->
+git pull origin main
+  
+
 
 
 
