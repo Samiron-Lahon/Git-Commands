@@ -100,8 +100,9 @@ Compare branches, commit, file  & others :
 
 <!-- Pull Command -->
 <!-- used to fetch and download content from a remote repo and immediately update the local repo to match that content. -->
-Pull command :
-git pull origin main
+Pull command : (download from remote repo and update local repo)
+
+         git pull origin main
 
 <!-- Resolving Merge Conflicts -->
 <!-- An event that takes place when Git is unable to automatically resolve differences  in code between two commits. -->
