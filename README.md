@@ -1,26 +1,31 @@
-# Module1-C
-These are the some practice problems in C programming for beginners.
+# Git commands
+These are git commands we need to use Github.
 <br>
 Author -- Samiron Lahon
 
+
  <!-- To check Git version run this command in terminal or Git Blash -->
  Check Git version :
- git --version
+
+        git --version
 
  <!-- To configuring Git run this command in terminal  --> 
  Configuring Git repository :
- git config --global user.name "My Name"
- git config --global user.email "My email"
- git config --list
+
+        git config --global user.name "My Name"
+        git config --global user.email "My email"
+        git config --list
  
  <!-- clone and status -->
 
  <!-- Clone : Cloning a repository on our local machine -->
  Cloning repository :
- git clone <-link->
+
+        git clone <-link->
  <!-- Status : Display the state of the code --> 
  Check Git status :
- git status
+
+        git status
 
  <!-- Untracked : New files that git doesn't yet track -->
  <!-- Modified : Changed -->
@@ -31,55 +36,74 @@ Author -- Samiron Lahon
 
 <!-- add : adds new or changed files  in your working directory to the  Git staging  area -->
 Add Command :
-git add <-file name->
+
+        git add <-file name->
 <!-- commit : it is the record of change -->
 Commit Command :
-git commit -m "Some message"
+
+        git commit -m "Some message"
 
 <!-- Push Command -->
 <!-- push : upload local repo content to remote repo -->
 Git Push Command :
-git push origin main
+
+        git push origin main
 
 <!-- to get into any directory -->
 Get into a directory Command :
-cd <name of the directory>
+
+        cd <name of the directory>
 <!-- to get out from any directory -->
 Get out from directory Command:
-cd ..
+
+        cd ..
 
 
 <!-- make new directory into new folder  -->
 Make new Directory command :
-mkdir <name of the new directory>
+
+        mkdir <name of the new directory>
 
 <!-- Initial command -->
 <!-- init : used to create a new git repo  -->
 Initial Command :
 1 :
-git init
+
+        git init
 
 2:
-git remote add origin <-link->
-git remote -v   (to verify remote)
-git branch      (to check branch)
-git branch -M main   (to rename branch)
-git push origin main
+
+        git remote add origin <-link->       
+
+To verify remote :
+
+        git remote -v
+
+
 
 <!-- Work flow -->
 create git repo--clone--changes--add--commit--push
  
  <!-- git branch -->
  Check Git Branch :
-  git branch
+
+        git branch
+
  Rename Git branch : 
-  git branch -M main
+
+        git branch -M main
+
  Navigate command : 
-  git checkout <-new branch name->
+
+         git checkout <-new branch name->
+
  Create new branch command : 
-  git checkout -b <-new branch name->
+
+         git checkout -b <-new branch name->
+
  Delete branch command : 
-  git branch -d <-branch name->
+
+         git branch -d <-branch name->
 
 
   <!-- Merging code -->
@@ -88,9 +112,12 @@ create git repo--clone--changes--add--commit--push
  Merging code -
 way1 
 Compare branches, commit, file  & others :
-  git diff <-branch name-> 
+
+         git diff <-branch name-> 
+
  Mering command : 
-  git merge <-branch name->
+
+         git merge <-branch name->
 
   <!-- way2 -->
   way2 :
